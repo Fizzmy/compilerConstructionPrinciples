@@ -1,0 +1,269 @@
+------------STATUS 0 --------------
+Z->.P
+P->.DS
+D->.Lid;D
+L->.int
+L->.float
+D->.
+------------STATUS 1 --------------
+L->int.
+------------STATUS 2 --------------
+L->float.
+------------STATUS 3 --------------
+P->D.S
+S->.id=E;
+S->.if(C)S
+S->.if(C)SelseS
+S->.while(C)S
+S->.SS
+------------STATUS 4 --------------
+D->L.id;D
+------------STATUS 5 --------------
+Z->P.
+------------STATUS 6 --------------
+S->if.(C)S
+S->if.(C)SelseS
+------------STATUS 7 --------------
+S->while.(C)S
+------------STATUS 8 --------------
+S->id.=E;
+------------STATUS 9 --------------
+P->DS.
+S->S.S
+S->.id=E;
+S->.if(C)S
+S->.if(C)SelseS
+S->.while(C)S
+S->.SS
+------------STATUS 10 --------------
+D->Lid.;D
+------------STATUS 11 --------------
+S->if(.C)S
+S->if(.C)SelseS
+C->.E>E
+E->.E+T
+E->.E-T
+E->.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+C->.E<E
+C->.E==E
+------------STATUS 12 --------------
+S->while(.C)S
+C->.E>E
+E->.E+T
+E->.E-T
+E->.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+C->.E<E
+C->.E==E
+------------STATUS 13 --------------
+S->id=.E;
+E->.E+T
+E->.E-T
+E->.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+------------STATUS 14 --------------
+S->S.S
+S->SS.
+S->.id=E;
+S->.if(C)S
+S->.if(C)SelseS
+S->.while(C)S
+S->.SS
+------------STATUS 15 --------------
+D->Lid;.D
+D->.Lid;D
+L->.int
+L->.float
+D->.
+------------STATUS 16 --------------
+F->digits.
+------------STATUS 17 --------------
+F->id.
+------------STATUS 18 --------------
+F->(.E)
+E->.E+T
+E->.E-T
+E->.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+------------STATUS 19 --------------
+S->if(C.)S
+S->if(C.)SelseS
+------------STATUS 20 --------------
+C->E.>E
+C->E.<E
+C->E.==E
+E->E.+T
+E->E.-T
+------------STATUS 21 --------------
+T->F.
+------------STATUS 22 --------------
+E->T.
+T->T.*F
+T->T./F
+------------STATUS 23 --------------
+S->while(C.)S
+------------STATUS 24 --------------
+S->id=E.;
+E->E.+T
+E->E.-T
+------------STATUS 25 --------------
+D->Lid;D.
+------------STATUS 26 --------------
+E->E.+T
+E->E.-T
+F->(E.)
+------------STATUS 27 --------------
+S->if(C).S
+S->if(C).SelseS
+S->.id=E;
+S->.if(C)S
+S->.if(C)SelseS
+S->.while(C)S
+S->.SS
+------------STATUS 28 --------------
+C->E==.E
+E->.E+T
+E->.E-T
+E->.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+------------STATUS 29 --------------
+C->E>.E
+E->.E+T
+E->.E-T
+E->.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+------------STATUS 30 --------------
+C->E<.E
+E->.E+T
+E->.E-T
+E->.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+------------STATUS 31 --------------
+E->E+.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+------------STATUS 32 --------------
+E->E-.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+------------STATUS 33 --------------
+T->T*.F
+F->.(E)
+F->.id
+F->.digits
+------------STATUS 34 --------------
+T->T/.F
+F->.(E)
+F->.id
+F->.digits
+------------STATUS 35 --------------
+S->while(C).S
+S->.id=E;
+S->.if(C)S
+S->.if(C)SelseS
+S->.while(C)S
+S->.SS
+------------STATUS 36 --------------
+S->id=E;.
+------------STATUS 37 --------------
+F->(E).
+------------STATUS 38 --------------
+S->if(C)S.
+S->if(C)S.elseS
+S->S.S
+S->.id=E;
+S->.if(C)S
+S->.if(C)SelseS
+S->.while(C)S
+S->.SS
+------------STATUS 39 --------------
+C->E==E.
+E->E.+T
+E->E.-T
+------------STATUS 40 --------------
+C->E>E.
+E->E.+T
+E->E.-T
+------------STATUS 41 --------------
+C->E<E.
+E->E.+T
+E->E.-T
+------------STATUS 42 --------------
+E->E+T.
+T->T.*F
+T->T./F
+------------STATUS 43 --------------
+E->E-T.
+T->T.*F
+T->T./F
+------------STATUS 44 --------------
+T->T*F.
+------------STATUS 45 --------------
+T->T/F.
+------------STATUS 46 --------------
+S->while(C)S.
+S->S.S
+S->.id=E;
+S->.if(C)S
+S->.if(C)SelseS
+S->.while(C)S
+S->.SS
+------------STATUS 47 --------------
+S->if(C)Selse.S
+S->.id=E;
+S->.if(C)S
+S->.if(C)SelseS
+S->.while(C)S
+S->.SS
+------------STATUS 48 --------------
+S->if(C)SelseS.
+S->S.S
+S->.id=E;
+S->.if(C)S
+S->.if(C)SelseS
+S->.while(C)S
+S->.SS

@@ -1,0 +1,15 @@
+int a;
+int b;
+int c;
+int d;
+a=2;
+b=1;
+a=((b+c)/a+d)*3;
+
+if (a<b)
+    d=a+b;
+while(c==b)
+    if (a>d)
+    	c=a+b;
+    else
+    	c=a-b;

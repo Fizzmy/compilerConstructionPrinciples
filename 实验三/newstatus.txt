@@ -1,0 +1,276 @@
+------------STATUS 0 --------------
+Z->.P
+P->.DS
+D->.Lid;OD
+L->.int
+L->.float
+D->.
+------------STATUS 1 --------------
+L->int.
+------------STATUS 2 --------------
+L->float.
+------------STATUS 3 --------------
+P->D.S
+S->.id=E;
+S->.if(C)MS
+S->.if(C)MSNelseMS
+S->.whileM(C)MS
+S->.SMS
+------------STATUS 4 --------------
+D->L.id;OD
+------------STATUS 5 --------------
+Z->P.
+------------STATUS 6 --------------
+S->if.(C)MS
+S->if.(C)MSNelseMS
+------------STATUS 7 --------------
+S->while.M(C)MS
+M->.
+------------STATUS 8 --------------
+S->id.=E;
+------------STATUS 9 --------------
+P->DS.
+S->S.MS
+M->.
+------------STATUS 10 --------------
+D->Lid.;OD
+------------STATUS 11 --------------
+S->if(.C)MS
+S->if(.C)MSNelseMS
+C->.E>E
+E->.E+T
+E->.E-T
+E->.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+C->.E<E
+C->.E==E
+------------STATUS 12 --------------
+S->whileM.(C)MS
+------------STATUS 13 --------------
+S->id=.E;
+E->.E+T
+E->.E-T
+E->.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+------------STATUS 14 --------------
+S->SM.S
+S->.id=E;
+S->.if(C)MS
+S->.if(C)MSNelseMS
+S->.whileM(C)MS
+S->.SMS
+------------STATUS 15 --------------
+D->Lid;.OD
+O->.
+------------STATUS 16 --------------
+F->digits.
+------------STATUS 17 --------------
+F->id.
+------------STATUS 18 --------------
+F->(.E)
+E->.E+T
+E->.E-T
+E->.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+------------STATUS 19 --------------
+S->if(C.)MS
+S->if(C.)MSNelseMS
+------------STATUS 20 --------------
+C->E.>E
+C->E.<E
+C->E.==E
+E->E.+T
+E->E.-T
+------------STATUS 21 --------------
+T->F.
+------------STATUS 22 --------------
+E->T.
+T->T.*F
+T->T./F
+------------STATUS 23 --------------
+S->whileM(.C)MS
+C->.E>E
+E->.E+T
+E->.E-T
+E->.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+C->.E<E
+C->.E==E
+------------STATUS 24 --------------
+S->id=E.;
+E->E.+T
+E->E.-T
+------------STATUS 25 --------------
+S->S.MS
+S->SMS.
+M->.
+------------STATUS 26 --------------
+D->Lid;O.D
+D->.Lid;OD
+L->.int
+L->.float
+D->.
+------------STATUS 27 --------------
+E->E.+T
+E->E.-T
+F->(E.)
+------------STATUS 28 --------------
+S->if(C).MS
+S->if(C).MSNelseMS
+M->.
+------------STATUS 29 --------------
+C->E==.E
+E->.E+T
+E->.E-T
+E->.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+------------STATUS 30 --------------
+C->E>.E
+E->.E+T
+E->.E-T
+E->.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+------------STATUS 31 --------------
+C->E<.E
+E->.E+T
+E->.E-T
+E->.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+------------STATUS 32 --------------
+E->E+.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+------------STATUS 33 --------------
+E->E-.T
+T->.F
+F->.(E)
+F->.id
+F->.digits
+T->.T*F
+T->.T/F
+------------STATUS 34 --------------
+T->T*.F
+F->.(E)
+F->.id
+F->.digits
+------------STATUS 35 --------------
+T->T/.F
+F->.(E)
+F->.id
+F->.digits
+------------STATUS 36 --------------
+S->whileM(C.)MS
+------------STATUS 37 --------------
+S->id=E;.
+------------STATUS 38 --------------
+D->Lid;OD.
+------------STATUS 39 --------------
+F->(E).
+------------STATUS 40 --------------
+S->if(C)M.S
+S->if(C)M.SNelseMS
+S->.id=E;
+S->.if(C)MS
+S->.if(C)MSNelseMS
+S->.whileM(C)MS
+S->.SMS
+------------STATUS 41 --------------
+C->E==E.
+E->E.+T
+E->E.-T
+------------STATUS 42 --------------
+C->E>E.
+E->E.+T
+E->E.-T
+------------STATUS 43 --------------
+C->E<E.
+E->E.+T
+E->E.-T
+------------STATUS 44 --------------
+E->E+T.
+T->T.*F
+T->T./F
+------------STATUS 45 --------------
+E->E-T.
+T->T.*F
+T->T./F
+------------STATUS 46 --------------
+T->T*F.
+------------STATUS 47 --------------
+T->T/F.
+------------STATUS 48 --------------
+S->whileM(C).MS
+M->.
+------------STATUS 49 --------------
+S->if(C)MS.
+S->if(C)MS.NelseMS
+S->S.MS
+N->.
+M->.
+------------STATUS 50 --------------
+S->whileM(C)M.S
+S->.id=E;
+S->.if(C)MS
+S->.if(C)MSNelseMS
+S->.whileM(C)MS
+S->.SMS
+------------STATUS 51 --------------
+S->if(C)MSN.elseMS
+------------STATUS 52 --------------
+S->whileM(C)MS.
+S->S.MS
+M->.
+------------STATUS 53 --------------
+S->if(C)MSNelse.MS
+M->.
+------------STATUS 54 --------------
+S->if(C)MSNelseM.S
+S->.id=E;
+S->.if(C)MS
+S->.if(C)MSNelseMS
+S->.whileM(C)MS
+S->.SMS
+------------STATUS 55 --------------
+S->if(C)MSNelseMS.
+S->S.MS
+M->.
+

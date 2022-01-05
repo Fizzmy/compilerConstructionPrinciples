@@ -1,0 +1,14 @@
+ACCEPT!
+a = 2
+b = 1
+t1 = a + b
+t2 = t1 * c
+t3 = d - 1
+t4 = t2 / t3
+a = t4
+t5 = a + b
+c = t5
+t6 = a + b
+c = t6
+t7 = a - b
+c = t7

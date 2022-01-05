@@ -1,0 +1,24 @@
+FIRST C: digits id (
+FIRST D: int float ^
+FIRST E: digits id (
+FIRST F: digits id (
+FIRST L: int float
+FIRST M: ^
+FIRST N: ^
+FIRST O: ^
+FIRST P: if while int float id ^
+FIRST S: if while id ^
+FIRST T: digits id (
+FIRST Z: if while int float id ^
+FOLLOW C: )
+FOLLOW D: if while id ^
+FOLLOW E: == > < + - ; )
+FOLLOW F: == > < + - * / ; )
+FOLLOW L: id
+FOLLOW M: if else while id ( ^
+FOLLOW N: else
+FOLLOW O: if while int float id ^
+FOLLOW P: ^
+FOLLOW S: if else while id ^
+FOLLOW T: == > < + - * / ; )
+FOLLOW Z: ^
